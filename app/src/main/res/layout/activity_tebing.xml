@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/tebing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Tebing Koja"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: Cireundeu, Cikuya, Kec. Solear, Kabupaten Tangerang, Banten 15730."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Tebing Kopo Maja atau biasa disebut dengan Tebing Koja, terletak di Kecamatan Solear, Kabupaten Tangerang adalah satu diantaranya destinasi wisata baru yang kini tengah ramai diperbicnangkan dilakangan pecinta wisata, terutama warga Tangerang. Dari cerita warga, wisata Tebing Koja awalnya adalah sebuah galian pasir ini. Setelah ditinggalkan oleh para penambang karena sudah tidak lagi produktif, akhirnya tambang pasir ini dijadikan objek wisata oleh warga sekitar. Cukup dengan membayar tiket sebesar Rp5.000 rupiah para pengunjung bisa datang dan menikmati suasana tebing yang menjulang tinggi. Dibalut dengan pemandangan hamparan sawah dengan padi yang menguning, lokasi wisata Tebing Koja ini sangat cocok sebagai tempat untuk berburu poto dengan angle-angle yang menarik. Wisata Tebing Koja ini adalah satu dari sekian destinasi wisata alam di wilayah Kabupaten Tangerang yang penataanya belum bisa dikelola dengan baik. Ditengah proses pembangunan yang sudah mulai menggeliat, harusnya pemerintah daerah bisa memanfaatkan potensi-potensi yang bisa dijadikan sebagai aset wisata daerah."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

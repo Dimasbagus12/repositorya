@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:src="@drawable/tanjungpasir" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Pantai Tanjung Pasir"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lokasi: Jl.Tanjung Pasir Teluk Naga Kabupaten Tangerang Banten"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Pantai Tanjung Pasir adalah destinasi wisata pantai di Banten yang layak untuk Anda kunjungi ketika Anda sedang berada di Tangerang, Banten. Pasalnya pesona pantai pasir yang disuguhkan memiliki pemandangan yang terbilang cukup menawan. Banyak pantai-pantai yang indah di Banten ini. Karena lokasinya yang berada di ujung barat Pulau Jawa ini berhadapan langsung dengan samudera Hindia, membuat pantai-pantai di Banten memiliki ombak yang besar. Harga Tiket Masuk Pantai Tanjung Pasir Bagi Anda yang ingin masuk ke kawasan wisata Pantai Tanjung Pasir, Anda tak perlu merogoh kocek terlalu dalam, karena Anda hanya perlu membayar tiket masuk senilai Rp 15.000. Rute Menuju Lokasi ke Pantai Tanjung Pasir Akses jalan menuju kawasan Pantai Tanjung Pasir bisa dimulai ke arah bandara Soekarno-Hatta (Soetta), tepatnya dari pintu belakang ini terkenal dengan sebutan M1. Setelah itu, melanjutkan perjalanan  ke arah utara dan kira-kira 5 km menuju lokasi sudah ada petunjuk mengarah ke Tanjung Pasir."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

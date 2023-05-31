@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/telaga" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Telaga Biru"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: alan Cigaru, Cisoka, Tangerang Regency, Banten 15730."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Telaga Biru Cisoka. Terkenal juga sebagai Danau Biru Cisoka, danau ini memiliki 3 danau yang berbeda. Warnanya yaitu hijau, kuning dan toska yang merupakan perpaduan warna hijau dan kuning. Danau biru ini tidak hanya dikunjungi oleh wisatawan lokal namun juga mancanegara. Tempat wisata ini diresmikan oleh A. Zaki Iskandar selaku Bupati Tangerang. Peresmian disaksikan oleh Dinas Pariwisata Banten, Kepala Dinas Pariwisata dan Kebudayaan Tangerang. Tiket Masuk Telaga Biru Cisoka Tiket masuk untuk menikmati pemandangan di Telaga cukup murah. Pengunjung hanya perlu membayar Rp12.000 untuk memasuki kawasan wisata ini. Telaga yang mulai banyak dikunjungi sejak tahun 2015 ini memiliki kisah tersendiri. Konon saat ditemukan oleh pengunjung, air di danau ini sudah berwarna biru. Pengunjung tersebut juga menemukan selendang mutiara milik bidadari yang tertinggal. Setelah itu, pengunjung itu melaporkan telaga biru tersebut ke warga. Terdapat hal yang cukup aneh di di danau Biru Cisoka ini. Saat 2015, telaga yang berwarna biru tersebut berada di sisi kiri pintu masuk. Namun, di tahun 2016, telaga biru tersebut ‘pindah’ ke sisi kanan hingga sekarang."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/azom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Masjid Raya Al-Azhom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: l. Satria - Sudirman, RT.001/RW.001, Sukaasih, Kec. Tangerang, Kota Tangerang, Banten 15111."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Masyarakat Muslim di Kota Tangerang, Provinsi Banten, memiliki sebuah masjid yang menjadi landmark daerahnya. Bangunan yang dimaksud ialah Masjid Raya al-A’zhom. Tempat ibadah yang berdiri di atas lahan seluas 2,25 hektare itu bahkan bisa dikatakan sebagai kebanggaan umat Islam Indonesia. Sebab, inilah masjid yang diklaim mempunyai kubah terbesar sedunia. Bangunan utamanya mencakup luas 5.775 meter persegi. Ia terdiri atas dua lantai, yakni bagian bawah (4.845,08 m persegi) dan atas (909,92 m persegi). Daya tampungnya diperkirakan mampu memuat 15 ribu orang jamaah. Kompleks yang beralamat di Jalan Satria-Sudirman, Sukaasih, Kecamatan Tangerang, Kota Tangerang, itu sekilas juga menyerupai masjid-masjid khas Turki Utsmaniyah. Sebab, ada empat buah menara pada setiap sudut bangunannya. Masing-masing menara memiliki ketinggian hingga 55 meter. Bentuknya ramping dan runcing pada ujungnya."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/park" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Scientia Square Park"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: Jl. Scientia Boulevard, Curug Sangereng, Kec. Klp. Dua, Kabupaten Tangerang, Banten 15810."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Scientia Square Park merupakan sebuah ruang terbuka hijau di Tangerang yang memiliki banyak wahana dan fasilitas. Di sana para pengunjung bisa melakukan aktivitas dengan hewan seperti menunggangi kuda, memberi makan kelinci, memegang kerbau dan lainnya. Tempat wisata yang satu ini berlokasi di Jalan Scientia Boulevard, Curug Sangereng, Kelapa Dua, Kabupaten Tangerang. Posisinya dekat dengan Universitas Multimedia Nusantara (UMN) Tangerang. Pada akhir pekan, Scientia Square Park banyak dipenuhi pengunjung. Rata-rata wisatawan yang datang membawa anak-anak. Sebab di sini terdapat banyak wahana yang disukai anak-anak. Tiket Masuk Scientia Square Park Daily Pass (belum termasuk tiket masuk wahana) Weekdays: Rp 45.000 per orang Weekend dan Holiday: Rp 95.000 per orang Annual Pass (Memiliki masa berlaku 1 tahun): Rp 899.000 - Rp 1.500.000 Monthly Pass: Rp 300.000 - Rp 650.000 berlaku tiga bulan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

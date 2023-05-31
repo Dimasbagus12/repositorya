@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/roti" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Roti Nogat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi:  Pasar Modern BSD Blok R15. Pintu Barat, Rawa Mekar Jaya, Serpong Sub-District, South Tangerang City, Banten 15111."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="roti Nogat sempat mendadak jadi sebuah tren kuliner. Kabarnya, roti Nogat ini berasal dari salah satu kedai di Tangerang Selatan, kemudian menjamur hingga Ibukota. Istilah nogat itu sendiri merupakan kacang tanah yang dimasak dengan gula, hingga menjadi karamel kemudian dihancurkan. Sensasi renyah dan manis kacang karamel ini jadi makin menggoda ketika disajikan bersama dengan roti bakar, roti nogat bisa dijadikan sebagai kudapan atau menu sarapan pagi."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

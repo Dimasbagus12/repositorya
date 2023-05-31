@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/danauu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Danau Situ Cipondoh"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="  Lokasi: Jl. KH Hasyim Ashari No.99, RT.002/RW.009, Cipondoh, Kec. Cipondoh, Kota Tangerang, Banten 15122."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text=" Situ atau Danau Cipondoh  yang berlokasi di Jalan Kyai Haji Hasyim Ashari, Kota Tangerang bisa menjadi destinasi yang sesuai untuk mengajak putra-putri Anda menghabiskan waktu liburan. Suasana hijau membuat Situ Cipondoh cocok dijadikan tempat piknik atau bersantai. Sembari mengawasi anak-anak bermain di playground, para orang tua dapat duduk santai di bawah pepohonan rindang. Di sana buah hati Anda bebas memainkan aneka permainan yang sudah disediakan seperti ayunan, perosotan, atau kereta mini. Tentu tidak lengkap jika berwisata ke danau tanpa memainkan wahana permainan air. Pengunjung tinggal memilih wahana yang dikehendaki bila ingin menjelajahi Danau Cipondoh. Pengelola sudah menyediakan sepeda air, perahu boat, serta bebek-bebekan. Ada juga permainan flying fox bagi pecinta ketinggian. Situ Cipondoh juga merupakan tempat favorit untuk memancing. Selain tenang, memancing di danau tersebut juga bias dinikmati tanpa dikenai biaya alias gratis. Pengunjung tidak hanya akan menjumpai berbagai jenis ikan air tawar karena Pemerintah Kota Tangerang sudah menyebarkan ratusan bibit nila di Danau Cipondoh. Sebagai tempat wisata, Situ Cipondoh juga sudah dilengkapi dengan tempat bersantap. Di sana pengunjung dapat dengan dengan mudah tempat makan dengan menu lengkap. Anda bisa memilih hidangan yang disukai termasuk otak-otak, bakso, siomay, nasi goring, hingga pempek Palembang. Harga yang ditawarkan juga terjangkau. Tempat rekreasi yang juga dikenal dengan nama Situ Rawa Cipondoh tersebut dapat dikunjungi setiap hari. Tiket masuknya adalah Rp 2.000 (Senin-Sabtu) atau Rp 3.000 pada hari Minggu. Wahana sepeda air, bebek-bebekan, serta flying fox bisa dinikmati dengan membayar Rp 15.000 saja. Sedangkan bila ingin naik perahu boat, Anda cukup mengeluarkan biaya Rp 5.000 per satu putaran. Ada tiga pilihan tempat wisata di danau seluas 50 hektar ini. Lokasi pertama adalah obyek wisata yang dikelola Forum Masyarakat untuk Pelestarian dan Pengembangan Situ Cipondoh (Formasi)."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>
